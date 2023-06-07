@@ -11,6 +11,7 @@ class Ground{
     }
 
     display(){
-        
+        var pos = this.ground.position;
+        rect(pos.x, pos.y, this.w, this.h);
     }
 }
